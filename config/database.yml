@@ -6,6 +6,8 @@
 development:
   adapter: mysql2
   database: dummydev
+  user: tim
+  password: 
   pool: 5
   timeout: 5000
 
@@ -15,11 +17,15 @@ development:
 test:
   adapter: mysql2
   database: dummystage
+  user: tim
+  password: 
   pool: 5
   timeout: 5000
 
 production:
   adapter: mysql2
+  user: tim
+  password: 
   database: dummyprod
   pool: 5
   timeout: 5000
