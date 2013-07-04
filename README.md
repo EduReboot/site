@@ -1,2 +1,1 @@
-site
-====
+Public brochureware site for Education Reboot.
